@@ -204,8 +204,8 @@ NSInteger rowNum;
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    UITextField *nameTextField=[[UITextField alloc] init];
-    UITextField *genderTextField=[[UITextField alloc] init];
+    UILabel *nameTextField=[[UILabel alloc] init];
+    UILabel *genderTextField=[[UILabel alloc] init];
     
     [nameTextField setTranslatesAutoresizingMaskIntoConstraints:NO];
     [genderTextField setTranslatesAutoresizingMaskIntoConstraints:NO];
