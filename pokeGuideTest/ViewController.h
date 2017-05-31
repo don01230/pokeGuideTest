@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIButton *maleButton;
+@property (weak, nonatomic) IBOutlet UIButton *femaleButton;
 
 @end
 
